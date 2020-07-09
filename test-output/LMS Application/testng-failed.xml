@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [LMS Application]">
+  <test thread-count="5" name="My Account Testing(failed)">
+    <classes>
+      <class name="sdet_Selenium_Project.LMS_Test">
+        <methods>
+          <include name="logintolms"/>
+          <include name="Logintoaccount"/>
+          <include name="close"/>
+          <include name="Navigate_to_Other_Page"/>
+          <include name="complete_lesson"/>
+        </methods>
+      </class> <!-- sdet_Selenium_Project.LMS_Test -->
+    </classes>
+  </test> <!-- My Account Testing(failed) -->
+</suite> <!-- Failed suite [LMS Application] -->

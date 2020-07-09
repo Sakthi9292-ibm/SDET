@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="9" total="18" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="LMS Application" duration-ms="140584" started-at="2020-07-09T05:45:09Z" finished-at="2020-07-09T05:47:30Z">
+    <groups>
+    </groups>
+    <test name="HomePage Testing" duration-ms="78640" started-at="2020-07-09T05:45:09Z" finished-at="2020-07-09T05:46:28Z">
+      <class name="sdet_Selenium_Project.LMS_Test">
+        <test-method status="PASS" signature="logintolms()[pri:0, instance:sdet_Selenium_Project.LMS_Test@3532ec19]" name="logintolms" is-config="true" duration-ms="10354" started-at="2020-07-09T05:45:09Z" finished-at="2020-07-09T05:45:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintolms -->
+        <test-method status="PASS" signature="contact_admin()[pri:2, instance:sdet_Selenium_Project.LMS_Test@3532ec19]" name="contact_admin" duration-ms="2712" started-at="2020-07-09T05:45:20Z" finished-at="2020-07-09T05:45:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contact_admin -->
+        <test-method status="PASS" signature="close()[pri:0, instance:sdet_Selenium_Project.LMS_Test@3532ec19]" name="close" is-config="true" duration-ms="740" started-at="2020-07-09T05:45:23Z" finished-at="2020-07-09T05:45:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="logintolms()[pri:0, instance:sdet_Selenium_Project.LMS_Test@3532ec19]" name="logintolms" is-config="true" duration-ms="8548" started-at="2020-07-09T05:45:23Z" finished-at="2020-07-09T05:45:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintolms -->
+        <test-method status="PASS" signature="countcourses()[pri:3, instance:sdet_Selenium_Project.LMS_Test@3532ec19]" name="countcourses" duration-ms="809" started-at="2020-07-09T05:45:32Z" finished-at="2020-07-09T05:45:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countcourses -->
+        <test-method status="PASS" signature="close()[pri:0, instance:sdet_Selenium_Project.LMS_Test@3532ec19]" name="close" is-config="true" duration-ms="808" started-at="2020-07-09T05:45:33Z" finished-at="2020-07-09T05:45:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="logintolms()[pri:0, instance:sdet_Selenium_Project.LMS_Test@3532ec19]" name="logintolms" is-config="true" duration-ms="9989" started-at="2020-07-09T05:45:33Z" finished-at="2020-07-09T05:45:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintolms -->
+        <test-method status="PASS" signature="verify_Second_popular()[pri:6, instance:sdet_Selenium_Project.LMS_Test@3532ec19]" name="verify_Second_popular" duration-ms="37" started-at="2020-07-09T05:45:43Z" finished-at="2020-07-09T05:45:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Second_popular -->
+        <test-method status="PASS" signature="close()[pri:0, instance:sdet_Selenium_Project.LMS_Test@3532ec19]" name="close" is-config="true" duration-ms="5386" started-at="2020-07-09T05:45:43Z" finished-at="2020-07-09T05:45:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="logintolms()[pri:0, instance:sdet_Selenium_Project.LMS_Test@3532ec19]" name="logintolms" is-config="true" duration-ms="11340" started-at="2020-07-09T05:45:49Z" finished-at="2020-07-09T05:46:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintolms -->
+        <test-method status="PASS" signature="verifyfirsttitle()[pri:7, instance:sdet_Selenium_Project.LMS_Test@3532ec19]" name="verifyfirsttitle" duration-ms="33" started-at="2020-07-09T05:46:00Z" finished-at="2020-07-09T05:46:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyfirsttitle -->
+        <test-method status="PASS" signature="close()[pri:0, instance:sdet_Selenium_Project.LMS_Test@3532ec19]" name="close" is-config="true" duration-ms="1047" started-at="2020-07-09T05:46:00Z" finished-at="2020-07-09T05:46:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="logintolms()[pri:0, instance:sdet_Selenium_Project.LMS_Test@3532ec19]" name="logintolms" is-config="true" duration-ms="11550" started-at="2020-07-09T05:46:01Z" finished-at="2020-07-09T05:46:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintolms -->
+        <test-method status="PASS" signature="Verifywebsiteheading()[pri:8, instance:sdet_Selenium_Project.LMS_Test@3532ec19]" name="Verifywebsiteheading" duration-ms="31" started-at="2020-07-09T05:46:13Z" finished-at="2020-07-09T05:46:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verifywebsiteheading -->
+        <test-method status="PASS" signature="close()[pri:0, instance:sdet_Selenium_Project.LMS_Test@3532ec19]" name="close" is-config="true" duration-ms="1106" started-at="2020-07-09T05:46:13Z" finished-at="2020-07-09T05:46:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="logintolms()[pri:0, instance:sdet_Selenium_Project.LMS_Test@3532ec19]" name="logintolms" is-config="true" duration-ms="13056" started-at="2020-07-09T05:46:14Z" finished-at="2020-07-09T05:46:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintolms -->
+        <test-method status="PASS" signature="VerfiywebsiteTitle()[pri:9, instance:sdet_Selenium_Project.LMS_Test@3532ec19]" name="VerfiywebsiteTitle" duration-ms="6" started-at="2020-07-09T05:46:27Z" finished-at="2020-07-09T05:46:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerfiywebsiteTitle -->
+        <test-method status="PASS" signature="close()[pri:0, instance:sdet_Selenium_Project.LMS_Test@3532ec19]" name="close" is-config="true" duration-ms="1057" started-at="2020-07-09T05:46:27Z" finished-at="2020-07-09T05:46:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- sdet_Selenium_Project.LMS_Test -->
+    </test> <!-- HomePage Testing -->
+    <test name="My Account Testing" duration-ms="61916" started-at="2020-07-09T05:46:28Z" finished-at="2020-07-09T05:47:30Z">
+      <class name="sdet_Selenium_Project.LMS_Test">
+        <test-method status="PASS" signature="logintolms()[pri:0, instance:sdet_Selenium_Project.LMS_Test@4dfa3a9d]" name="logintolms" is-config="true" duration-ms="14491" started-at="2020-07-09T05:46:28Z" finished-at="2020-07-09T05:46:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintolms -->
+        <test-method status="PASS" signature="complete_lesson()[pri:1, instance:sdet_Selenium_Project.LMS_Test@4dfa3a9d]" name="complete_lesson" duration-ms="13150" started-at="2020-07-09T05:46:43Z" finished-at="2020-07-09T05:46:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- complete_lesson -->
+        <test-method status="PASS" signature="close()[pri:0, instance:sdet_Selenium_Project.LMS_Test@4dfa3a9d]" name="close" is-config="true" duration-ms="726" started-at="2020-07-09T05:46:56Z" finished-at="2020-07-09T05:46:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="logintolms()[pri:0, instance:sdet_Selenium_Project.LMS_Test@4dfa3a9d]" name="logintolms" is-config="true" duration-ms="12358" started-at="2020-07-09T05:46:56Z" finished-at="2020-07-09T05:47:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintolms -->
+        <test-method status="PASS" signature="Navigate_to_Other_Page()[pri:5, instance:sdet_Selenium_Project.LMS_Test@4dfa3a9d]" name="Navigate_to_Other_Page" duration-ms="835" started-at="2020-07-09T05:47:09Z" finished-at="2020-07-09T05:47:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Navigate_to_Other_Page -->
+        <test-method status="PASS" signature="close()[pri:0, instance:sdet_Selenium_Project.LMS_Test@4dfa3a9d]" name="close" is-config="true" duration-ms="809" started-at="2020-07-09T05:47:10Z" finished-at="2020-07-09T05:47:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="logintolms()[pri:0, instance:sdet_Selenium_Project.LMS_Test@4dfa3a9d]" name="logintolms" is-config="true" duration-ms="10541" started-at="2020-07-09T05:47:10Z" finished-at="2020-07-09T05:47:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintolms -->
+        <test-method status="PASS" signature="Logintoaccount()[pri:4, instance:sdet_Selenium_Project.LMS_Test@4dfa3a9d]" name="Logintoaccount" duration-ms="8209" started-at="2020-07-09T05:47:21Z" depends-on-methods="sdet_Selenium_Project.LMS_Test.Navigate_to_Other_Page" finished-at="2020-07-09T05:47:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logintoaccount -->
+        <test-method status="PASS" signature="close()[pri:0, instance:sdet_Selenium_Project.LMS_Test@4dfa3a9d]" name="close" is-config="true" duration-ms="791" started-at="2020-07-09T05:47:29Z" finished-at="2020-07-09T05:47:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- sdet_Selenium_Project.LMS_Test -->
+    </test> <!-- My Account Testing -->
+  </suite> <!-- LMS Application -->
+</testng-results>

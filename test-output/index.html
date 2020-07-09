@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-LMS_Application">
+              <span class="suite-name border-passed">LMS Application</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-LMS_Application">
+                    <span>C:\Users\SakthivelSundaram\Desktop\personal\TestAutomation\IBMSDET\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-LMS_Application">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-LMS_Application">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-LMS_Application">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-LMS_Application">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-LMS_Application">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-LMS_Application">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">9 methods,   9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-LMS_Application" class="hide-methods passed suite-LMS_Application"> (hide)</a> <!-- hide-methods passed suite-LMS_Application -->
+                      <a href="#" panel-name="suite-LMS_Application" class="show-methods passed suite-LMS_Application"> (show)</a> <!-- show-methods passed suite-LMS_Application -->
+                    </span>
+                    <div class="method-list-content passed suite-LMS_Application">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LMS_Application" title="sdet_Selenium_Project.LMS_Test" hash-for-method="Logintoaccount">Logintoaccount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LMS_Application" title="sdet_Selenium_Project.LMS_Test" hash-for-method="Navigate_to_Other_Page">Navigate_to_Other_Page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LMS_Application" title="sdet_Selenium_Project.LMS_Test" hash-for-method="VerfiywebsiteTitle">VerfiywebsiteTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LMS_Application" title="sdet_Selenium_Project.LMS_Test" hash-for-method="Verifywebsiteheading">Verifywebsiteheading</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LMS_Application" title="sdet_Selenium_Project.LMS_Test" hash-for-method="complete_lesson">complete_lesson</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LMS_Application" title="sdet_Selenium_Project.LMS_Test" hash-for-method="contact_admin">contact_admin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LMS_Application" title="sdet_Selenium_Project.LMS_Test" hash-for-method="countcourses">countcourses</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LMS_Application" title="sdet_Selenium_Project.LMS_Test" hash-for-method="verify_Second_popular">verify_Second_popular</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LMS_Application" title="sdet_Selenium_Project.LMS_Test" hash-for-method="verifyfirsttitle">verifyfirsttitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-LMS_Application -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-LMS_Application" class="panel LMS_Application">
+          <div class="suite-LMS_Application-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">sdet_Selenium_Project.LMS_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Logintoaccount">
+                  </a> <!-- Logintoaccount -->
+                  <span class="method-name">Logintoaccount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Navigate_to_Other_Page">
+                  </a> <!-- Navigate_to_Other_Page -->
+                  <span class="method-name">Navigate_to_Other_Page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerfiywebsiteTitle">
+                  </a> <!-- VerfiywebsiteTitle -->
+                  <span class="method-name">VerfiywebsiteTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verifywebsiteheading">
+                  </a> <!-- Verifywebsiteheading -->
+                  <span class="method-name">Verifywebsiteheading</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="complete_lesson">
+                  </a> <!-- complete_lesson -->
+                  <span class="method-name">complete_lesson</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="contact_admin">
+                  </a> <!-- contact_admin -->
+                  <span class="method-name">contact_admin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="countcourses">
+                  </a> <!-- countcourses -->
+                  <span class="method-name">countcourses</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_Second_popular">
+                  </a> <!-- verify_Second_popular -->
+                  <span class="method-name">verify_Second_popular</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyfirsttitle">
+                  </a> <!-- verifyfirsttitle -->
+                  <span class="method-name">verifyfirsttitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LMS_Application-class-passed -->
+        </div> <!-- panel LMS_Application -->
+        <div panel-name="test-xml-LMS_Application" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\SakthivelSundaram\Desktop\personal\TestAutomation\IBMSDET\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;LMS Application&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;HomePage Testing&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;sdet_Selenium_Project.LMS_Test&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;VerfiywebsiteTitle&quot;/&gt;
+          &lt;include name=&quot;Verifywebsiteheading&quot;/&gt;
+          &lt;include name=&quot;verifyfirsttitle&quot;/&gt;
+          &lt;include name=&quot;verify_Second_popular&quot;/&gt;
+          &lt;include name=&quot;countcourses&quot;/&gt;
+          &lt;include name=&quot;contact_admin&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- sdet_Selenium_Project.LMS_Test --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- HomePage Testing --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;My Account Testing&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;sdet_Selenium_Project.LMS_Test&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;Logintoaccount&quot;/&gt;
+          &lt;include name=&quot;Navigate_to_Other_Page&quot;/&gt;
+          &lt;include name=&quot;complete_lesson&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- sdet_Selenium_Project.LMS_Test --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- My Account Testing --&gt;
+&lt;/suite&gt; &lt;!-- LMS Application --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-LMS_Application" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for LMS Application</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">HomePage Testing (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">My Account Testing (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-LMS_Application" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for LMS Application</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-LMS_Application" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for LMS Application</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_LMS_Application');
+function tableData_LMS_Application() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(9);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'complete_lesson')
+data.setCell(0, 2, 'sdet_Selenium_Project.LMS_Test')
+data.setCell(0, 3, 13150);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Logintoaccount')
+data.setCell(1, 2, 'sdet_Selenium_Project.LMS_Test')
+data.setCell(1, 3, 8209);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'contact_admin')
+data.setCell(2, 2, 'sdet_Selenium_Project.LMS_Test')
+data.setCell(2, 3, 2712);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Navigate_to_Other_Page')
+data.setCell(3, 2, 'sdet_Selenium_Project.LMS_Test')
+data.setCell(3, 3, 835);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'countcourses')
+data.setCell(4, 2, 'sdet_Selenium_Project.LMS_Test')
+data.setCell(4, 3, 809);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verify_Second_popular')
+data.setCell(5, 2, 'sdet_Selenium_Project.LMS_Test')
+data.setCell(5, 3, 37);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyfirsttitle')
+data.setCell(6, 2, 'sdet_Selenium_Project.LMS_Test')
+data.setCell(6, 3, 33);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Verifywebsiteheading')
+data.setCell(7, 2, 'sdet_Selenium_Project.LMS_Test')
+data.setCell(7, 3, 31);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'VerfiywebsiteTitle')
+data.setCell(8, 2, 'sdet_Selenium_Project.LMS_Test')
+data.setCell(8, 3, 6);
+window.suiteTableData['LMS_Application']= { tableData: data, tableDiv: 'times-div-LMS_Application'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 25 seconds</span>
+              <div id="times-div-LMS_Application">
+              </div> <!-- times-div-LMS_Application -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-LMS_Application" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for LMS Application</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-LMS_Application" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">9 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">sdet_Selenium_Project.LMS_Test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">Verifywebsiteheading</span>
+                <br/>
+                <span class="ignored-method-name">contact_admin</span>
+                <br/>
+                <span class="ignored-method-name">verify_Second_popular</span>
+                <br/>
+                <span class="ignored-method-name">countcourses</span>
+                <br/>
+                <span class="ignored-method-name">Logintoaccount</span>
+                <br/>
+                <span class="ignored-method-name">verifyfirsttitle</span>
+                <br/>
+                <span class="ignored-method-name">VerfiywebsiteTitle</span>
+                <br/>
+                <span class="ignored-method-name">Navigate_to_Other_Page</span>
+                <br/>
+                <span class="ignored-method-name">complete_lesson</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-LMS_Application" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">sdet_Selenium_Project.LMS_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">logintolms</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">contact_admin</span>
+                <span class="method-start">10354 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">13067 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">logintolms</span>
+                <span class="method-start">13808 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">countcourses</span>
+                <span class="method-start">22356 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">23166 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">logintolms</span>
+                <span class="method-start">23975 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verify_Second_popular</span>
+                <span class="method-start">33964 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">34002 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">logintolms</span>
+                <span class="method-start">39388 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyfirsttitle</span>
+                <span class="method-start">50728 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">50762 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">logintolms</span>
+                <span class="method-start">51810 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Verifywebsiteheading</span>
+                <span class="method-start">63360 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">63392 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">logintolms</span>
+                <span class="method-start">64499 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerfiywebsiteTitle</span>
+                <span class="method-start">77555 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">77562 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">logintolms</span>
+                <span class="method-start">78649 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">complete_lesson</span>
+                <span class="method-start">93140 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">106291 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">logintolms</span>
+                <span class="method-start">107018 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Navigate_to_Other_Page</span>
+                <span class="method-start">119376 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">120211 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">logintolms</span>
+                <span class="method-start">121021 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Logintoaccount</span>
+                <span class="method-start">131562 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">139772 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

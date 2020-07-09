@@ -1,0 +1,30 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="LMS Application" verbose="1">
+<test name="HomePage Testing">
+<classes>
+<class name="sdet_Selenium_Project.LMS_Test">
+<methods>
+<include  name ="VerfiywebsiteTitle"/>
+<include  name ="Verifywebsiteheading"/>
+<include  name ="verifyfirsttitle"/>
+<include  name ="verify_Second_popular"/>
+<include  name ="countcourses"/>
+<include  name ="contact_admin"/>
+
+</methods>
+</class>
+</classes>
+</test>
+<test name="My Account Testing">
+<classes>
+<class name="sdet_Selenium_Project.LMS_Test">
+<methods>
+<include  name ="Logintoaccount"/>
+<include  name ="Navigate_to_Other_Page"/>
+<include  name ="complete_lesson"/>
+
+</methods>
+</class>
+</classes>
+</test>
+</suite>
